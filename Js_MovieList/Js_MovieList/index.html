@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="movie.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,17 +17,17 @@
                     <div class="card-body">
                         <div class="mt-2">
                             <label>Movie Name:</label>
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" id="movieName" />
                         </div>
                         <div class="mt-2">
                             <label>Director Name:</label>
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" id="directorName"/>
                         </div>
                         <div class="mt-2">
                             <label>Movie Category:</label>
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" id="categoryName" />
                         </div>
-                        <button class="btn btn-primary mt-2">Add Movie</button>
+                        <button class="btn btn-primary mt-2" id="submit">Add Movie</button>
                     </div>
                 </div>
             </div>
@@ -45,12 +46,12 @@
                                         <th>Category Name</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody  id="movieTable">
                                     <tr>
-                                        <td>1</td>
+                                        <!--<td>1</td>
                                         <td>The Dark Knight</td>
                                         <td>Christopher Nolan</td>
-                                        <td>Action</td>
+                                        <td>Action</td>-->
                                     </tr>
                                 </tbody>
                         </table>
