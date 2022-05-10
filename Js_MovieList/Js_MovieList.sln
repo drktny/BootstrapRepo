@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Js_MovieList", "Js_MovieList\Js_MovieList.vbproj", "{AAC33D81-0101-40EF-AEAC-571604D61795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC33D81-0101-40EF-AEAC-571604D61795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC33D81-0101-40EF-AEAC-571604D61795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC33D81-0101-40EF-AEAC-571604D61795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC33D81-0101-40EF-AEAC-571604D61795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF8DEAC5-EF14-492D-90BE-DA96B9B2F11A}
+	EndGlobalSection
+EndGlobal
